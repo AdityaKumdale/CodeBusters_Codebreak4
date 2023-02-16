@@ -82,8 +82,10 @@
         android:layout_marginTop="48dp"
         android:text="Register for New User"
         android:textColor="@color/white"
+        android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/buttonLogin" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

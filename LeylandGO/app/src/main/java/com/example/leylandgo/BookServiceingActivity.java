@@ -2,6 +2,7 @@ package com.example.leylandgo;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.app.DatePickerDialog;
 import android.content.Intent;
 import android.os.Bundle;
 import android.widget.EditText;
@@ -9,6 +10,8 @@ import android.widget.TextView;
 
 public class BookServiceingActivity extends AppCompatActivity {
     EditText ed1,ed2,ed3,ed4;
+    //private DatePickerDialog;
+
     TextView tv;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -20,6 +23,8 @@ public class BookServiceingActivity extends AppCompatActivity {
         ed2 = findViewById(R.id.editTextAppAddress);
         ed3 = findViewById(R.id.editTextContact);
         ed4 = findViewById(R.id.editTextconsaltantfees);
+//        dateButton = findViewById(R.id.buttonAppDate);
+//        timeButton = findViewById(R.id.buttonAppTime);
 
         ed1.setKeyListener(null);
         ed2.setKeyListener(null);

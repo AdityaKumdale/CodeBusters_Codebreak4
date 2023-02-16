@@ -109,10 +109,11 @@ public class MechanicDetailsActivity extends AppCompatActivity {
             @Override
             public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
                 Intent it = new Intent(MechanicDetailsActivity.this,BookServiceingActivity.class);
-                item.put(("line1"), mechanic_details[i][0]);
-                item.put(("line2"), mechanic_details[i][1]);
-                item.put(("line3"), mechanic_details[i][2]);
-                item.put(("line4"), mechanic_details[i][3]);
+                it.putExtra(("text1"), mechanic_details[i][0]);
+                it.putExtra(("text2"), mechanic_details[i][1]);
+                it.putExtra(("text3"), mechanic_details[i][2]);
+                it.putExtra(("text4"), mechanic_details[i][3]);
+                it.putExtra(("text5"), mechanic_details[i][4]);
                 startActivity(it);
             }
         });
